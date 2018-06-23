@@ -37,7 +37,7 @@
   	</dependency>
   	<dependency>
   		<groupId>org.apache.taglibs</groupId>
-  		<artifactId>org.apache.taglibs</artifactId>
+  		<artifactId>taglibs-standard-impl</artifactId>
   		<version>1.2.5</version>
   	</dependency>
   	<dependency>
