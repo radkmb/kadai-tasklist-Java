@@ -26,6 +26,14 @@ public class Task {
     @Column(name = "content", length = 255, nullable = false)
     private String content;
 
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
     public String getContent() {
         return content;
     }
