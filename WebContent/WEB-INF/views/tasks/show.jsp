@@ -9,6 +9,7 @@
 
         <p>タスク：<c:out value="${task.content}" /></p>
 
+        <p><a href="${pageContext.request.contextPath}/edit?id=${task.id}">タスクを編集する</a></p>
         <p><a href="${pageContext.request.contextPath}/index">タスク一覧に戻る</a></p>
 
     </c:param>
