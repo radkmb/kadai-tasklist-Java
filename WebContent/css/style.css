@@ -17,6 +17,10 @@ body {
     padding-left: 3%;
 }
 
+hr {
+	border: 0.5px dotted #8c8b8b;
+}
+
 h1 {
     width: 94%;
     padding-top: 17px;

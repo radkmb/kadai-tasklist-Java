@@ -10,6 +10,8 @@
         </c:if>
 
         <h2>タスク一覧</h2>
+        <p><a href="${pageContext.request.contextPath}/new">新規タスクの登録</a></p>
+        <hr>
         <ul>
             <c:forEach var="task" items="${tasks}">
                 <li>
@@ -20,7 +22,7 @@
                 </li>
             </c:forEach>
         </ul>
-
+        <hr>
         <div id="pagination">
             （全 ${tasks_count} 件）<br />
             <c:forEach var="i" begin="1" end="${((tasks_count -1) / 5) + 1}" step="1">
@@ -34,6 +36,5 @@
                 </c:choose>
             </c:forEach>
         </div>
-        <p><a href="${pageContext.request.contextPath}/new">新規タスクの登録</a></p>
     </c:param>
 </c:import>
